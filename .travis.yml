@@ -5,7 +5,7 @@ jdk: oraclejdk8
 
 notifications:
   slack:
-    on_success: never
+    on_success: always
     on_failure: always
 
 cache:
@@ -13,8 +13,4 @@ cache:
     - $HOME/.m2
 
 script:
-    - mvn verify -Ptest
-    
-after_success:
-
-    - mvn tomcat7:deploy -Premote
+    - mvn verify
