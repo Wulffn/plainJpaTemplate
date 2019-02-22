@@ -1,6 +1,6 @@
 package integrationtests.dbfacades;
 
-import dbfacades.DemoFacade;
+import dbfacades.CarFacade;
 import entity.Car;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -19,7 +19,7 @@ public class FacadeTest {
   
 EntityManagerFactory emf = Persistence.createEntityManagerFactory("pu-test", null);
 
- DemoFacade facade = new DemoFacade(emf);
+ CarFacade facade = new CarFacade(emf);
  
   /** Setup test data in the database to a known state BEFORE Each test */
   @Before
