@@ -1,3 +1,7 @@
+Travis CI
+
+[![Build Status](https://travis-ci.org/Wulffn/plainJpaTemplate.svg?branch=master)](https://travis-ci.org/Wulffn/plainJpaTemplate)
+
 # plainJpaTemplate
 Fork (or clone and delete the .git-folder) this project to get a ready to use template for JPA-development in a plain java project (no web server)
 
